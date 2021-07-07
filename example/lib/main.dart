@@ -49,7 +49,7 @@ class _MyAppState extends State<MyApp> {
 
   void presentEditor() async {
     final result = await VESDK.openEditor(
-        video: "assets/Skater.mp4", configuration: createConfiguration());
+        video: "assets/Boomer2.mp4", configuration: createConfiguration());
     print(result?.toJson());
   }
 
